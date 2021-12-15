@@ -1,0 +1,17 @@
+body{
+    background-color: #e6e6e6;
+}
+.sidebar {
+    width: 400px;
+    margin: auto;
+    height: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: outset #141414;
+    background-color: #ffffff;
+    line-height: 2.0;
+}
+.khung {
+    text-align: center;
+
+}

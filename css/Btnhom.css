@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #222222;
+    text-align: left;
+    background-color: #fafafa;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+p{
+    margin-bottom: 10px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width:  1200px;
+    margin: auto;
+}
+.header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    background-image: url("../img/acacac.jpg");
+    background-size: 100% 200%;
+}
+.logo{
+    width: 33%;
+    margin: 0 auto;
+    height: 220px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.logo{
+    float: center;
+}
+
+.logo a{
+    font-size: 42px;
+    color: #f2f2f2;
+    font-weight: 1200;
+    margin: 25px;
+    text-align: center;
+}
+.logo p{
+    font-size: 17px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.center a{
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-left: 750px;
+    text-align: center;
+}
+.center p{
+    text-align: center;
+    color: #a6a9af;
+}
+.picture{
+    padding-top: 30px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+.picture_in{
+    height: 400px;
+    width: 400px;
+}
+.name{
+    text-align: center;
+    font-size: 20px;
+}
+.price{
+    font-size: 15px;
+    text-align: center;
+    color: #a6a9af;
+}
+
+
