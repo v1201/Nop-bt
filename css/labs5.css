@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #222222;
+    text-align: left;
+    background-color:#eeeeee;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+p{
+    margin-bottom: 10px;
+}
+.section{
+    float:left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+    width: 33%;
+}
+.toplinks{
+    float: right;
+}
+.logo a{
+    font-size: 28px;
+    color: #222222;
+    font-weight: 700;
+}
+.logo p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.toplinks li{
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+}
+.toplinks li a{
+    color: #222222;
+    font-weight: 500;
+    line-height: 52.5px;
+}
+.nav{
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+}
+.menu li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu li.last{
+    float: right;
+    margin: 0;
+}
+.menu li a{
+    color: #222222;
+    font-weight: 500;
+}
+.main{
+    margin-top: 30px;
+}
+.content{
+    float:left;
+    width: 66.67%;
+    padding-right: 15px;
+}
+.sidebar{
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+}
+.content .entry{
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+}
+.sidebar .block{
+    float: left;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.sidebar .black{
+    background-color: gray;
+}
