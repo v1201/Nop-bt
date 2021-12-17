@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #ffffff;
+    text-align: center;
+    background-color: #3aada9;
+}
+.header{
+    width: 360px;
+    height: 120px;
+    background-color: #702c91;
+}
+.body{
+    padding-top: 30px;
+    color: gray;
+    width: 360px;
+    height: 360px;
+    background-color: #ffffff;
+}
+.body.button{
+    width: 200px;
+    height: 100px;
+    background-color: #702c91;
+}
